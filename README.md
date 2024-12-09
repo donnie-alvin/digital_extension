@@ -144,8 +144,7 @@ To test the API endpoints, you can use the following cURL commands:
 
 ---
 
-<<<<<<< HEAD
-```
+
 
 ---
 
