@@ -16,6 +16,9 @@ app.use('/farmers', require('./routes/farmers'));
 app.use('/products', require('./routes/products'));
 app.use('/orders', require('./routes/orders'));
 app.use('/articles', require('./routes/articles'));
+app.use('/api/crops', require('./routes/crops'));
+app.use('/api/officers', require('./routes/officers'));
+app.use('/api/feedback', require('./routes/feedback'));
 
 // Default Route
 app.get('/', (req, res) => {

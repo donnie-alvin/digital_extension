@@ -102,25 +102,52 @@ This project is a web application designed to provide digital extension services
 | **Feedback**        | GET         | `/api/feedback`           | Fetch all feedback             |
 |                     | POST        | `/api/feedback`           | Submit feedback                |
 
+### Testing the Endpoints
+
+To test the API endpoints, you can use the following cURL commands:
+
+1. **GET /api/users**:
+   ```sh
+   curl -X GET http://localhost:5001/api/users
+   ```
+
+2. **POST /api/users**:
+   ```sh
+   curl -X POST http://localhost:5001/api/users -H "Content-Type: application/json" -d '{"name": "John Doe", "email": "john@example.com", "password": "password123"}'
+   ```
+
+3. **GET /api/products**:
+   ```sh
+   curl -X GET http://localhost:5001/api/products
+   ```
+
+4. **POST /api/products**:
+   ```sh
+   curl -X POST http://localhost:5001/api/products -H "Content-Type: application/json" -d '{"name": "Maize", "description": "Rainy season crop", "price": 100.50}'
+   ```
+
+5. **GET /api/officers**:
+   ```sh
+   curl -X GET http://localhost:5001/api/officers
+   ```
+
+6. **POST /api/officers**:
+   ```sh
+   curl -X POST http://localhost:5001/api/officers -H "Content-Type: application/json" -d '{"name": "Jane Smith", "email": "jane@example.com", "phone": "123-456-7890"}'
+   ```
+
+7. **GET /api/feedback**:
+   ```sh
+   curl -X GET http://localhost:5001/api/feedback
+   ```
+
+8. **POST /api/feedback**:
+   ```sh
+   curl -X POST http://localhost:5001/api/feedback -H "Content-Type: application/json" -d '{"user_id": 1, "message": "Great service!"}'
+   ```
+
 ---
 
-## Technologies Used
-
-- **Backend**: Node.js, Express
-- **Database**: MySQL (Managed via phpMyAdmin)
-- **Frontend**: To be developed using HTML, CSS, and JavaScript.
-
----
-
-## Contributors
-
-- [Your Name](https://github.com/your-profile)
-
----
-
-## License
-
-This project is licensed under the MIT License.
 ```
 
 ---
