@@ -1,8 +1,4 @@
-Here’s the updated **README.md** to include the progress of API endpoint creation and testing:
 
----
-
-```markdown
 # Digital Extension Services Web App
 
 This project is a web application designed to provide digital extension services to smallholder farmers in Zimbabwe. The app aims to bridge the gap between farmers and extension officers by offering an accessible platform for sharing agricultural knowledge, products, and feedback.
@@ -148,7 +144,17 @@ To test the API endpoints, you can use the following cURL commands:
 
 ---
 
+<<<<<<< HEAD
 ```
 
 ---
+
+=======
+## Contributors
+
+- [Mike](https://github.com/your-profile)
+
+---
+
+## License
 
