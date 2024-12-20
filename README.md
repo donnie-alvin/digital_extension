@@ -1,4 +1,3 @@
-
 ## Progress
 
 ### Completed Tasks
@@ -65,6 +64,19 @@
 
 ---
 
+## Usage Steps
+
+1. Open the frontend:
+   - Launch the `index.html` file in your browser to access the application.
+
+2. Navigate through the application:
+   - Use the navigation links to view products, log in, or sign up.
+
+3. Fetch products:
+   - Click the "Fetch Products" button to retrieve the list of products from the API.
+
+---
+
 ## API Endpoints
 
 | Entity              | HTTP Method | Endpoint                   | Description                     |
@@ -128,10 +140,6 @@ To test the API endpoints, you can use the following cURL commands:
 
 ---
 
-
-
----
-
 ## Frontend Structure
 
 The frontend of the application is organized as follows:
@@ -143,13 +151,13 @@ The frontend of the application is organized as follows:
   - **scripts/**
     - `main.js`: Core functionality.
     - `api.js`: Handles API requests.
-  - **components/**
+  - **../components/**
     - `header.html`: Header component.
     - `footer.html`: Footer component.
     - `dashboard.html`: Dashboard component.
 
+---
 
-=======
 ## Contributors
 
 - [Mike](https://github.com/your-profile)
@@ -157,4 +165,3 @@ The frontend of the application is organized as follows:
 ---
 
 ## License
-
